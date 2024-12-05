@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: 'Manrope', sans-serif;
+}
+.nav {
+  border-bottom: 1px solid rgb(212, 212, 212);
+}
+button {
+  border-width: 1px;
+}
+.omo {
+  height: 160px;
+  position: relative;
+  top: 520px;
+  left: -100px;
+}
+.omo2 img{
+  width: 800px;
+  height: 240px;
+  transform: scale(1.02);
+}
+.b1{
+  background-color: #babd8d;
+}
+@media (max-width: 786px){
+  .omo2 img{
+    width: 9000px;
+  }
+}
