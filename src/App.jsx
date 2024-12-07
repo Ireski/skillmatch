@@ -2,7 +2,6 @@ import Nav from "./components/Nav";
 // import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Category from "./components/Category";
-import Categories from "./components/categories";
 import Experience from "./components/Experience";
 import Talent from "./components/Talent";
 import Testimonial from "./components/Testimonial";
@@ -11,6 +10,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Insight from "./components/Insight";
 import Footer from "./components/Footer";
+import Categ from "./components/Categ";
 
 const App = () => {
   useEffect(() => {
@@ -25,7 +25,7 @@ const App = () => {
       {/* <Navbar /> */}
       <Hero />
       <Category />
-      <Categories />
+      <Categ />
       <Experience />
       <Talent />
       <Testimonial />

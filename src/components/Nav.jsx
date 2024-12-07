@@ -23,7 +23,7 @@ const Nav = () => {
   return (
     <div
       style={{ borderWidth: meas }}
-      className="bg-white flex justify-between items-center h-20 w-full mx-auto lg:px-16 px-6 text-black border-gray-300"
+      className="fixed z-50 bg-white flex justify-between items-center h-20 w-full mx-auto lg:px-16 px-6 text-black border-b border-b-gray-300"
     >
       {/* Logo */}
       {/* <h1 className='w-full text-3xl font-bold text-[#00df9a]'>REACT.</h1> */}
@@ -63,7 +63,7 @@ const Nav = () => {
       </div>
 
       {/* Mobile Navigation Icon */}
-      <div onClick={handleNav} className="block md:hidden">
+      <div onClick={handleNav} className="block lg:hidden">
         {nav ? (
           <AiOutlineClose size={30} className="text-orange-600" />
         ) : (
@@ -75,13 +75,13 @@ const Nav = () => {
       <ul
         className={
           nav
-            ? "fixed md:hidden left-0 top-0 w-[60%] z-50 pt-6 pb-6 pl-3 scroll-m-80 border-r border-r-gray-900 bg-[#ffffff] ease-in-out duration-500"
+            ? "fixed md:hidden left-0 top-16 w-[100%] z-50 pt-6 pb-6 pl-3 scroll-m-80 bg-[#ffffff] ease-in-out duration-500"
             : "ease-in-out w-[60%] duration-500 fixed z-50 top-0 bottom-0 left-[-100%]"
         }
       >
         {/* Mobile Logo */}
         {/* <h1 className='w-full text-3xl font-bold text-[#00df9a] m-4'>REACT.</h1> */}
-        <img className="h-6" src="images/logo1.png" alt="hey" />
+        {/* <img className="h-6" src="images/logo1.png" alt="hey" /> */}
 
         {/* Mobile Navigation Items */}
         {navItems.map((item) => (
