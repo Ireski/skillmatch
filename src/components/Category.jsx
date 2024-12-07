@@ -10,10 +10,10 @@ const Category = () => {
           offers a diverse range of services to meet your project needs.
         </p>
         <div className="flex flex-row">
-          <button className="bg-orange-600 border-orange-600 text-white px-6 py-2 rounded-lg">
+          <button className="bg-orange-600 border-orange-600 text-white text-md px-4 py-2 lg:text-lg lg:px-6 lg:py-2 rounded-lg">
             Post A Job
           </button>
-          <button className="text-black text-lg px-6 py-2 border-none">
+          <button className="text-black text-md px-4 py-2 lg:text-lg lg:px-6 lg:py-2 border-none">
             View all categories <i className="bx bx-chevron-right"></i>
           </button>
         </div>
