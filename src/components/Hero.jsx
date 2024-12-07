@@ -9,7 +9,7 @@ const Hero = () => {
       <div className="lg:w-3/6 w-auto px-2 pt-14 pb-12 mr-20">
         <div data-aos="fade-right">
           <h2 className="lg:text-5xl text-[30px] font-bold leading-10">
-            Connect with Top Freelancers for Your Projects
+            Connect with Top Freelancers for Your Projec
           </h2>
           <p className="text-[15px] lg:text-lg py-4">
             Discover skilled freelancers ready to bring your ideas to life. Use
