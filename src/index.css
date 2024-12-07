@@ -23,10 +23,10 @@ button {
   transform: scale(1.02);
 } */
 .lady {
-  background-image: url(images/heroimg.jpg);
+  background-image: url(./images/heroimg.jpg);
 }
 .experience {
-  background-image: url(images/back1.jpg);
+  background-image: url(./images/back1.jpg);
 }
 .b1 {
   background-color: #babd8d;
