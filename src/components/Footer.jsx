@@ -237,9 +237,9 @@ const Footer = () => {
           </a>{" "}
           - Powered by Webflow
         </p>
-        <img className="h-4" src="./images/whitelogo.png" alt="" />
+        <img className="h-4 mt-2 lg:mt-0" src="./images/whitelogo.png" alt="" />
       </div>
-      <div className="flex flex-row items-center justify-center bg-white px-4 py-2 rounded-sm w-40 fixed top-[620px] left-56 lg:top-[580px] lg:left-[1180px]">
+      <div className="flex flex-row items-center justify-center bg-white px-4 py-2 rounded-sm w-40 fixed top-[620px] left-48 lg:top-[580px] lg:left-[1180px]">
         <img src="./images/webflowbadge.svg" className="h-3" alt="" />
         <img src="./images/webflowfoot.svg" className="h-3" alt="" />
       </div>
