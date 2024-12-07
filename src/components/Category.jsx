@@ -1,7 +1,7 @@
 const Category = () => {
   return (
     <div className="px-4 lg:px-16 lg:py-32 py-5 pt-24">
-      <div className="lg:w-8/12 w-96 px-2 pt-14">
+      <div className="lg:w-8/12 lg:w-96 w-[97vw] px-2 pt-14">
         <h2 className="lg:text-5xl text-4xl font-semibold">
           Browse talent by category
         </h2>
