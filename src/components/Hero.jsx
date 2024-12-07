@@ -5,7 +5,7 @@ const Hero = () => {
 
   //   const back = "url(images/heroimg.jpg)";
   return (
-    <div className="flex flex-col lg:flex-row items-start w-screen justify-start lg:items-center lg:justify-center px-4 lg:px-2 lg:pt-48 py-14 h-auto lg:h-screen">
+    <div className="flex flex-col lg:flex-row items-start w-screen justify-start lg:items-center lg:justify-center px-9 lg:px-2 lg:pt-48 py-14 h-auto lg:h-screen">
       <div className="lg:w-3/6 w-[95%] px-2 pt-14 pb-12 mr-20">
         <div data-aos="fade-right">
           <h2 className="lg:text-5xl text-[30px] font-bold leading-10">
