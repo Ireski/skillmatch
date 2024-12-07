@@ -74,7 +74,7 @@ const Talent = () => {
             Join a vibrant community of talented freelancers
           </h3>
           <p className="text-md pb-5 lg:pb-9">
-            Unlock your potential and connect wlg:ith clients seeking your
+            Unlock your potential and connect with clients seeking your
             unique skills and expertise.
           </p>
           <span>
