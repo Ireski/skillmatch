@@ -23,7 +23,7 @@ const Nav = () => {
   return (
     <div
       style={{ borderWidth: meas }}
-      className="fixed z-50 bg-white flex justify-between items-center h-20 w-full mx-auto lg:px-16 px-6 text-black border-b border-b-gray-300"
+      className="fixed top-0 left-0 w-[97%] z-50 bg-white flex justify-between items-center h-20 w-full mx-auto lg:px-16 px-6 text-black border-b border-b-gray-300"
     >
       {/* Logo */}
       {/* <h1 className='w-full text-3xl font-bold text-[#00df9a]'>REACT.</h1> */}
