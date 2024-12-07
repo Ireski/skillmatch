@@ -31,7 +31,7 @@ const Hero = () => {
         </div>
       </div>
       <div
-        className="lady bg-cover bg-center rounded-3xl lg:w-[450px] w-[300px] h-[370px] lg:h-[500px] lg:ml-20 ml-12"
+        className="bg-[url('/images/heroimg.jpg')] bg-cover bg-center rounded-3xl lg:w-[450px] w-[300px] h-[370px] lg:h-[500px] lg:ml-20 ml-12"
         // style={{ width: width }}
       >
         {/* <img
