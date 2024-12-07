@@ -28,7 +28,7 @@ const Talent = () => {
   return (
     <div>
       <div className="px-2 lg:px-6 text-center py-24">
-        <h3 className="text-5xl font-semibold pb-9">
+        <h3 className="text-4xl lg:text-5xl font-semibold pb-9">
           Vetted talent at your fingertips!
         </h3>
         <p className="text-lg pb-6">
