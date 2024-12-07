@@ -27,7 +27,7 @@ const Nav = () => {
     >
       {/* Logo */}
       {/* <h1 className='w-full text-3xl font-bold text-[#00df9a]'>REACT.</h1> */}
-      <img className="h-6" src="images/logo1.png" alt="hey" />
+      <img className="h-4 lg:h-6" src="images/logo1.png" alt="hey" />
 
       {/* Desktop Navigation */}
       <ul className="hidden md:flex relative left-24">
