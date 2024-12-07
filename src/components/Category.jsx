@@ -5,7 +5,7 @@ const Category = () => {
         <h2 className="lg:text-5xl text-4xl font-semibold">
           Browse talent by category
         </h2>
-        <p className="text-lg w-11/12 py-4">
+        <p className="text-lg py-4">
           Connect with talented freelancers across various fields. Our platform
           offers a diverse range of services to meet your project needs.
         </p>
